@@ -1,0 +1,413 @@
+@import url("https://use.typekit.net/alo5dod.css");
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.landing{
+    height:100vh;
+    width:100%;
+    background: url(img/Webp.net-compress-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.head-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12%;
+    
+}
+
+.head-text h1{
+    color:white;  
+    font-family: 'poppins';  
+    font-size: 4rem;
+    line-height: 13rem;
+    letter-spacing: 3px;
+}
+.head-text h2{
+    color:white;
+    font-family: 'oswald';
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+}
+.head-text p{
+    font-size: 1rem;
+    font-family: 'oswald';
+    padding-top: 18%;
+}
+
+.faceid{
+    height: 100vh;
+    width: 100%;
+    background: #02011b;
+    overflow: hidden;
+}
+.white{
+    height: 100px;
+    width: 100px;
+}
+.faceid{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.whiteface{
+    position: absolute;
+    top:6%;
+    height: 220px;
+    width: 220px;
+}
+.facetext{
+    font-family: 'source sans pro';
+    color: white;
+}
+.facehead{
+    position: absolute;
+    left: 5%;
+    bottom:38%;
+    font-size: 58px;
+}
+
+.facepara{
+    position: absolute;
+    right:5%;
+    bottom: 5%;
+    font-size: 35px;
+}
+.green{
+    color: #78F100;
+}
+
+.headcover{
+    background: white;
+    position: absolute;
+    height: 60px;
+    width: 600px;
+    bottom: 38%;
+    left:5%;
+    z-index:99;
+}
+
+.paracover{
+    background: white;
+    position: absolute;
+    height: 40px;
+    width: 630px;
+    bottom: 5%;
+    right:5%;
+    z-index:99;
+}
+.camera{
+  
+    height: 100vh;
+    width: 100%;
+    background: #10021d;
+    position: relative;
+    overflow: hidden;
+   
+}
+.circle{
+    position: absolute;
+    height: 1300px;
+    width:1300px;
+    bottom:-40%;
+    left:-17.7%;
+    opacity: 0;
+    
+}
+
+.phone{
+    position: absolute;
+    left:8.5%;
+    bottom: 13.5%;
+    height:500px;
+    width:500px;
+    z-index:99;
+   
+
+}
+.right{
+   color: white;
+   font-family: "poppins";
+   position: absolute;
+   right:2%;
+   bottom:42%;
+   max-width: 600px;
+   
+}
+.life{
+    color: #ee2dae;
+}
+.right h1{
+    font-size: 2.5rem;
+    line-height: 10rem;
+    letter-spacing: 2px
+}
+.right p{
+    font-size: 18px;
+}
+.right h2{
+position: absolute;
+bottom: -100%;
+font-size: 1.9rem ;
+}
+.capture{
+    background: #ee2dae;
+    height: 2.6rem;
+    width: 10px;
+    position: absolute;
+    right: 102%;
+    bottom: 52%;
+}
+.text{
+    background: #ee2dae;
+    height: 55px;
+    width: 10px;
+    position: absolute;
+    right: 102%;
+    bottom: -1%;
+}
+.dslr{
+    background: #ee2dae;
+    height: 2rem;
+    width: 10px;
+    position: absolute;
+    right: 102%;
+    bottom: -97%;
+}
+.capture-cover{
+    background:#10021d;
+    height:2.7rem ;
+    width: 600px;
+    position: absolute;
+    bottom: 50.7%;
+    z-index: 99;
+}
+.text-cover{
+    background: #10021d;
+    height: 57px;
+    width: 600px;
+    position: absolute;
+    right: 1%;
+    bottom: -1%;
+    z-index: 99;
+}
+.dslr-cover{
+    background: #10021d;
+    height: 2.2rem;
+    width: 300px;
+    position: absolute;
+    right: 50%;
+    bottom: -99%;
+    z-index: 10;
+}
+.all{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+   overflow: hidden;
+}
+.chip{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background: url(img/5-05.svg);
+    opacity: 1;
+    z-index: -2;
+    overflow: hidden;
+}
+.red{
+    height: 100vh;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    opacity: 1;
+    z-index: 0;
+}
+
+
+
+.fast{
+  position: absolute;
+  bottom: 50%;
+  left: 15.7%;
+  color: #ffffff;
+  font-size: 40px;
+  z-index: 99;
+  font-family: 'roboto';
+  line-height: 3rem;
+}
+.A13{
+    position:absolute;
+    bottom: 35%;
+    left: 7%;
+    color: white;
+    font-size: 28px;
+    line-height: 3rem;
+    z-index: -1;
+    font-family: 'roboto';
+}
+
+.bluetext{
+    color: #55effa;
+}
+
+.turquoise-phone{
+    width: 100%;
+    height: 100vh;
+    background: #ade1cd;
+    padding-top: 6%;
+   position: relative;
+}
+.turquoise-phone  img{
+    position: absolute ;
+    left: -8%;
+}
+.black-phone{
+    width: 100%;
+    height: 100vh;
+    background: #202020 ;
+    padding-top: 6%;
+   position: relative;
+}
+.black-phone img{
+    position: absolute;
+    left: -8%;
+}
+.red-phone{
+    width: 100%;
+    height: 100vh;
+    background: #ba0c2f ;
+    padding-top: 6%;
+   position: relative;
+}
+.red-phone img{
+    position: absolute;
+    left: -8%;
+}
+.purple-phone{
+    width: 100%;
+    height: 100vh;
+    background: #d1cddb;
+    padding-top: 6%;
+   position: relative;
+}
+.purple-phone img{
+    position: absolute;
+    left: -8%;
+}
+.yellow-phone{
+    width: 100%;
+    height: 100vh;
+    background: #ffe680;
+    padding-top: 6%;
+   position: relative;
+}
+.yellow-phone img{
+    position: absolute;
+    left: -8%;
+}
+.turquoise-phone h1{
+    position: absolute;
+    left:55%;
+    top:43%;
+    font-family: 'Montserrat';
+    font-size: 6rem;  
+    color:#e9001f;
+}
+.yellow-phone h1{
+    position: absolute;
+    left:64%;
+    top:43%;
+    font-family: 'Montserrat';
+    font-size: 6rem;
+    color:rgb(112, 0, 146);
+}
+.red-phone h1{
+    position: absolute;
+    left:49%;
+    top:43%;
+    font-family: 'Montserrat';
+    font-size: 6rem;
+    color: #04bb75;
+}
+.black-phone h1{
+    position: absolute;
+    left:61.3%;
+    top:43%;
+    font-family: 'Montserrat';
+    font-size: 6rem;
+    color: white;
+    
+}
+.purple-phone h1{
+    position: absolute;
+    left:63%;
+    top:43%;
+    font-family: 'Montserrat';
+    font-size: 6rem;
+    color: rgb(255, 72, 0);
+}
+
+.buy{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width:100%;
+    background: #000000;
+    position: relative;
+    font-family: 'raleway';
+    color: white;
+}
+.buy h1{
+    color: white;
+    position: absolute;
+    top: 45%;
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+.buy h3{
+    position: absolute;
+    top: 57%;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.buy a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 50px;
+    background:#5c04ff;
+    position: absolute;
+    top:70%;
+    border-radius: 32px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    border: white solid 1px;
+    transition: 0.5s;
+}
+.buy a:hover{
+    background: black;
+    border:#7104ff solid 1px ;
+    color: #7104ff;
+   
+}
